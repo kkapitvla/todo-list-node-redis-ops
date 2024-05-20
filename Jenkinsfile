@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/kkapitvla/todo-list-node-redis', branch: 'main'
+                git url: 'https://github.com/kkapitvla/todo-list-node-redis.git', branch: 'main'
             }
         }
 
